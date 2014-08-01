@@ -5,12 +5,12 @@ import source.SourceEditor;
 import source.config.SourceConfigFile;
 import source.config.SourceConfiguration;
 
-public class FileEditor extends SourceEditor 
+public class FileSourceEditor extends SourceEditor 
 {
     private static final long serialVersionUID = 1L;
     private JFrequencyControl mFrequencyControl;
     
-	public FileEditor( SourceConfiguration config )
+	public FileSourceEditor( SourceConfiguration config )
 	{
 		super( config );
 		

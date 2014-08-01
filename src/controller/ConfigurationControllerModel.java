@@ -39,6 +39,7 @@ import source.tuner.TunerSelectionListener;
 import controller.channel.Channel;
 import controller.channel.ChannelListener;
 import controller.channel.ChannelNode;
+import controller.file.File;
 import controller.site.Site;
 import controller.system.System;
 import controller.system.SystemListNode;
@@ -126,7 +127,7 @@ public class ConfigurationControllerModel extends DefaultTreeModel
         /**
          * Add the root file node
          */
-        mFileNode = new FileNode();
+        mFileNode = new FileNode(new File());
         insertNodeInto( mFileNode, (MutableTreeNode)root, 1 );
     	
 		/**

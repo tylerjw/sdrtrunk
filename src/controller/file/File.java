@@ -15,36 +15,39 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <http://www.gnu.org/licenses/>
  ******************************************************************************/
-package source;
+package controller.file;
 
-import source.config.SourceConfiguration;
-import source.file.FileSourceEditor;
-import source.mixer.MixerEditor;
-import source.tuner.TunerEditor;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlRootElement;
 
-public class SourceEditorFactory
+@XmlRootElement( name = "file" )
+public class File
 {
-	public static SourceEditor getPanel( SourceConfiguration config )
-	{
-		SourceEditor configuredPanel;
-		
-		switch( config.getSourceType() )
-		{
-			case MIXER:
-				configuredPanel = new MixerEditor( config );
-				break;
-			case TUNER:
-				configuredPanel = new TunerEditor( config );
-				break;
-			case FILE:
-				configuredPanel = new FileSourceEditor( config );
-				break;
-			case NONE:
-			default:
-				configuredPanel = new EmptySourceEditor( config );
-				break;
-		}
-		
-		return configuredPanel;
-	}
+    private String mName;
+
+    public File()
+    {
+        this( "input_file" );
+    }
+    
+    public File( String name )
+    {
+        mName = name;
+    }
+    
+	@XmlAttribute
+    public String getName()
+    {
+        return mName;
+    }
+    
+    public void setName( String name )
+    {
+        mName = name;
+    }
+    
+    public String toString()
+    {
+        return mName;
+    }
 }
