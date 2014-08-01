@@ -1,0 +1,248 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"file_base_name"
+			],
+			[
+				"end",
+				"end_re"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"stat",
+				"start_msg"
+			],
+			[
+				"test",
+				"test_arr"
+			],
+			[
+				"start",
+				"start_msg"
+			],
+			[
+				"time",
+				"time_to_ms"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/c++/opencv_singlefile.sublime-build",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/crc/CRCUtil.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/crc/CRC.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/crc/CRCFleetsync.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/source/tuner/ettus/B100Tuner.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/.project",
+		"/home/tweaver/bin/ssh_wistle05.sh",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/crc/Checksum.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/crc/ChecksumTest.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/crc/ChecksumType.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/audio/InversionFrequency.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/dsp/fsk/FSK2Decoder.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/crc/CRCPassport.java",
+		"/home/tweaver/workspace/sdrtrunk-read-only/src/crc/CRCLTR.java",
+		"/home/tweaver/bin/delete_repo.sh",
+		"/home/tweaver/buff4/notes/assn71714",
+		"/home/tweaver/bin/edit_description_repo.sh",
+		"/home/tweaver/bin/git_add_remote.sh",
+		"/home/tweaver/bin/git_clone.sh",
+		"/home/tweaver/bin/jersey.sh",
+		"/home/tweaver/bin/new_repo.sh",
+		"/home/tweaver/.config/sublime-text-2/Packages/User/c++/opencv_singlefile.sublime-build",
+		"/home/tweaver/workspace/opencv_book/contours/contours.cpp",
+		"/home/tweaver/.bashrc",
+		"/home/tweaver/dev/trunk/src/makefile",
+		"/home/tweaver/cdma_phy_api_test.pj/README.md",
+		"/home/tweaver/cdma_phy_api_test.pj/time_test.pl",
+		"/home/tweaver/workspace/opencv_book/object/object.cpp",
+		"/home/tweaver/buff4/notes/jersey_setup",
+		"/mnt/buff4/notes/jersey_setup",
+		"/home/tweaver/dev/trunk/src/wstl/src/wstl_survey_engine.cpp",
+		"/home/tweaver/buff4/notes/gcc4.6.4_install",
+		"/home/tweaver/workspace/opencv_book/sublime/using.sublime-snippet",
+		"/home/tweaver/workspace/opencv_book/sublime/switch.sublime-snippet",
+		"/home/tweaver/gcc/gcc-4.6.4/gcc/doc/install.texi",
+		"/home/tweaver/cdma_phy_api_test.pj/crc_pn_values.plx",
+		"/home/tweaver/cdma_phy_api_test.pj/crc_pn_test_results",
+		"/home/tweaver/cdma_phy_api_test.pj/sync_crc_test.pl",
+		"/home/tweaver/cdma_phy_api_test.pj/sync_crc_test.plx",
+		"/home/tweaver/cdma_phy_api_test.pj/pilot_test.plx",
+		"/home/tweaver/cdma_phy_api_test.pj/description",
+		"/home/tweaver/cdma_phy_api_test.pj/array_test_32_pilot.pl",
+		"/home/tweaver/cdma_phy_api_test.pj/array_test.pl",
+		"/home/tweaver/workspace/perl/delete_repo.sh",
+		"/home/tweaver/bin/push_existing_repo.sh",
+		"/home/tweaver/bin/init_existing_repo.sh",
+		"/home/tweaver/dev/trunk/src/gui/np3/makefile",
+		"/home/tweaver/.ssh/config",
+		"/home/tweaver/cdma_phy_api_test.pj/synch_count.pl",
+		"/home/tweaver/workspace/perl/new_repo2.sh",
+		"/home/tweaver/workspace/perl/.git/description",
+		"/home/tweaver/dev/trunk/buildtools/bin/README",
+		"/home/tweaver/dev/trunk/src/usr/extern/boost/makefile",
+		"/home/tweaver/.config/sublime-text-2/Packages/User/c/c.sublime-build",
+		"/home/tweaver/.subversion/config",
+		"/home/tweaver/cdma_phy_api_test.pj/time_to_events.py",
+		"/home/tweaver/.config/sublime-text-2/Packages/User/perl/perl.sublime-build",
+		"/home/tweaver/cdma_phy_api_test.pj/offsetTest.pl",
+		"/home/tweaver/cdma_phy_api_test.pj/array_operations.pl",
+		"/home/tweaver/cdma_phy_api_test.pj/ecio_test.plx",
+		"/home/tweaver/cdma_phy_api_test.pj/app.conf",
+		"/mnt/buff4/config",
+		"/home/tweaver/.config/sublime-text-2/Packages/User/perl/perl_header.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/tweaver/dev/trunk/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"low",
+			"Low",
+			"low",
+			"Low",
+			"_r",
+			"4.6.3",
+			"syscall",
+			"installUsr",
+			"FILENAME",
+			"filen",
+			"build_1_55_successful_64",
+			"(\"",
+			");",
+			"(",
+			"$sync_time == ",
+			"m/",
+			"m",
+			"res",
+			"$h",
+			"/(",
+			"min"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 283.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
