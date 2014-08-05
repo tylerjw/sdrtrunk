@@ -25,7 +25,7 @@ import source.SourceType;
 import controller.config.Configuration;
 
 @XmlSeeAlso( { SourceConfigMixer.class, SourceConfigNone.class,
-					SourceConfigTuner.class, SourceConfigFile.class } )
+					SourceConfigTuner.class } )
 @XmlRootElement( name = "source_configuration" )
 public class SourceConfiguration extends Configuration
 {

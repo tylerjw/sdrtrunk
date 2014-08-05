@@ -21,15 +21,17 @@ import gui.control.JFrequencyControl;
 import source.SourceEditor;
 import source.config.SourceConfigTuner;
 import source.config.SourceConfiguration;
+import controller.ResourceManager;
 
 public class TunerEditor extends SourceEditor
 {
     private static final long serialVersionUID = 1L;
     private JFrequencyControl mFrequencyControl;
     
-	public TunerEditor( SourceConfiguration config )
+	public TunerEditor( ResourceManager resourceManager, 
+						SourceConfiguration config )
 	{
-		super( config );
+		super( resourceManager, config );
 		
 		initGUI();
 	}

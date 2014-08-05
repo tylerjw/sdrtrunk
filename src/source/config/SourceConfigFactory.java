@@ -27,7 +27,7 @@ public class SourceConfigFactory
 	}
 	
 	public static SourceConfiguration 
-							getSourceConfiguration( SourceType source )
+		getSourceConfiguration( SourceType source )
 	{
 		SourceConfiguration retVal;
 
@@ -39,8 +39,8 @@ public class SourceConfigFactory
 			case TUNER:
 				retVal = new SourceConfigTuner();
 				break;
-			case FILE:
-				retVal = new SourceConfigFile();
+			case RECORDING:
+				retVal = new SourceConfigRecording();
 				break;
 			case NONE:
 			default:
