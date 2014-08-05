@@ -18,6 +18,7 @@ public class Recording implements Comparable<Recording>,
 {
 	private ResourceManager mResourceManager;
 	private RecordingConfiguration mConfiguration;
+	private RecordingController mController;
 	
 	private ArrayList<TunerChannelSource> mTunerChannels = 
 			new ArrayList<TunerChannelSource>();
@@ -25,11 +26,13 @@ public class Recording implements Comparable<Recording>,
 	private long mCenterFrequency;
 	
 	public Recording( ResourceManager resourceManager, 
-					  RecordingConfiguration configuration )
+					  RecordingConfiguration configuration,
+					  RecordingController controller)
 	{
 		mResourceManager = resourceManager;
 		mConfiguration = configuration;
 		mCenterFrequency = mConfiguration.getCenterFrequency();
+		mController = controller;
 	}
 	
 	public void setAlias( String alias )
@@ -65,8 +68,7 @@ public class Recording implements Comparable<Recording>,
             TunerChannel channel ) throws RejectedExecutionException,
             SourceException
     {
-	    // TODO Auto-generated method stub
-	    return null;
+	    return mController.getChannel( threadPoolManager, this, channel );
     }
 
 	@Override

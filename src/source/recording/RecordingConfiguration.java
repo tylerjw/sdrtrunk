@@ -19,7 +19,7 @@ public class RecordingConfiguration
 	
 	public RecordingConfiguration( String filePath, 
 								   String alias,
-								   long centerFrequency )
+								   long centerFrequency)
 	{
 		mFilePath = filePath;
 		mAlias = alias;

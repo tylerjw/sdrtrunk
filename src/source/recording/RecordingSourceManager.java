@@ -111,9 +111,16 @@ public class RecordingSourceManager
     
     public Recording addRecording( RecordingConfiguration config )
     {
-    	Recording recording = new Recording( mResourceManager, config );
-
-    	mRecordings.add( recording );
+    	Recording recording = null;
+    	try {
+	    	RecordingController controller = new RecordingController();
+	    	recording = new Recording( mResourceManager, config, controller );
+	
+	    	mRecordings.add( recording );
+    	} catch (SourceException e) {
+    		System.err.println("Controller Source Exception: " + 
+					e.getLocalizedMessage());
+    	}
     	
     	return recording;
     }
@@ -142,9 +149,16 @@ public class RecordingSourceManager
     			
     			for( RecordingConfiguration config: recordingConfigurations )
     			{
-    				Recording recording = new Recording( mResourceManager, config );
-    				
-    				mRecordings.add( recording );
+    				Recording recording = null;
+    		    	try {
+    			    	RecordingController controller = new RecordingController();
+    			    	recording = new Recording( mResourceManager, config, controller );
+    			
+    			    	mRecordings.add( recording );
+    		    	} catch (SourceException e) {
+    		    		System.err.println("Controller Source Exception: " + 
+    							e.getLocalizedMessage());
+    		    	}
     			}
     		}
     	}
